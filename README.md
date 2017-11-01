@@ -3,7 +3,8 @@
 
 Just do the following steps for running proxy on param ishan and installing tmux
 
-1
+1)
+
 Add proxy details to .bashrc in the following format
 export ALL_PROXY=http://usrname:passwd@ip:port
 
@@ -23,10 +24,12 @@ export ftp_proxy=$ALL_PROXY
 
 export rsync_proxy=$ALL_PROXY
 
-2
+2)
+
 hcmod 755 sun.sh
 
-3
+3)
 ./run.sh
 
-4 tmux successfully installs on the system
+4)
+tmux successfully installs on the system
